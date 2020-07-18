@@ -1,0 +1,38 @@
+
+.Adm-logo {
+  height: 15vmin;
+  pointer-events: none;
+}
+
+.desktop-app {
+  display: flex;
+  flex: 1 1;
+  flex-direction: column;
+  height: 100%;
+}
+
+.mainHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #2a2a2a;
+}
+
+.mainHeader navigation{
+  display: flex;
+  justify-content: space-around;
+  flex: 1 1;
+  max-width: 60%;
+}
+
+navigation a {
+  color: #f9f9f9;
+}
+
+.headerNavMenu{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
