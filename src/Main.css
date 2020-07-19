@@ -16,6 +16,11 @@
   flex-direction: row;
   align-items: center;
   background-color: #2a2a2a;
+  height: 15vh;
+}
+
+.logo img{
+  height: 15vh;
 }
 
 .mainHeader navigation{
@@ -27,6 +32,22 @@
 
 navigation a {
   color: #f9f9f9;
+  text-decoration: none;
+}
+
+.bookNow{
+  color: #f9f9f9;
+  border: 1px solid #f9f9f9;
+  border-radius: 4rem;
+  height: 5rem;
+  width: 5rem;
+  height: 3rem;
+  width: 10rem;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
 }
 
 .headerNavMenu{
